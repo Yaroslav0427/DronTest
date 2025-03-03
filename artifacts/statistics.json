@@ -1,0 +1,80 @@
+[
+    {
+        "file_name": "3840_2160.mp4",
+        "fps": 25,
+        "actual_fps": 0.68,
+        "original_video_size": [
+            3840,
+            2160
+        ],
+        "video_duration_sec": 10.36,
+        "model_name": "yolov8_960.pt",
+        "yolo_input_resolution": [
+            960,
+            960
+        ],
+        "patch_size": [
+            960,
+            960
+        ],
+        "patch_overlap_prc": [
+            15,
+            15
+        ],
+        "patch_count": 15,
+        "yolo_predict_time": 376.74,
+        "total_frame_processing_time": 381.35
+    },
+    {
+        "file_name": "3840_2160.mp4",
+        "fps": 25,
+        "actual_fps": 8.56,
+        "original_video_size": [
+            3840,
+            2160
+        ],
+        "video_duration_sec": 10.36,
+        "model_name": "yolov8_640.pt",
+        "yolo_input_resolution": [
+            640,
+            640
+        ],
+        "patch_size": [
+            640,
+            640
+        ],
+        "patch_overlap_prc": [
+            15,
+            15
+        ],
+        "patch_count": 28,
+        "yolo_predict_time": 26.34,
+        "total_frame_processing_time": 30.25
+    },
+    {
+        "file_name": "3840_2160.mp4",
+        "fps": 25,
+        "actual_fps": 7.87,
+        "original_video_size": [
+            3840,
+            2160
+        ],
+        "video_duration_sec": 10.36,
+        "model_name": "yolov8_960.pt",
+        "yolo_input_resolution": [
+            960,
+            960
+        ],
+        "patch_size": [
+            960,
+            960
+        ],
+        "patch_overlap_prc": [
+            15,
+            15
+        ],
+        "patch_count": 15,
+        "yolo_predict_time": 29.22,
+        "total_frame_processing_time": 32.91
+    }
+]

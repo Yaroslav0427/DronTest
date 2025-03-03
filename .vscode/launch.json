@@ -1,0 +1,54 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "testik",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "testik.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "video_test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test_video.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--model-dir", "models/drone_detector_v1.pt",
+                // "--model-dir", "models/yolo11n.pt",
+                // "--model-dir", "models/yolo11s.pt",
+                // "--model-dir", "models/yolo11m.pt",
+
+                "--model-width", "640",
+                "--model-height", "640",
+
+                "--video-file", "demo/videos/my_drone_4k_9.mp4",
+                // "--video-file", "demo/videos/12625471_1440_2560_30fps.mp4",
+
+                // "--slice-width", "1280",
+                // "--slice-height", "1280",
+                "--slice-width", "640",
+                "--slice-height", "640",
+                // "--slice-width", "320",
+                // "--slice-height", "320",
+                "--overlap-hor", "15",
+                "--overlap-ver", "15",
+
+                // "--should-save-cropped-images",
+                // "--should-fix-output-file",
+            ]
+        }
+    ]
+}

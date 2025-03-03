@@ -1,0 +1,30 @@
+name: yolo-v11
+channels:
+  - anaconda
+  - nvidia
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.12.8
+  - cuda==12.5.1
+  - cudnn
+  - pip==24.2
+  # - ffmpeg
+  - pip:
+    - numpy==2.2.1
+    - matplotlib==3.10.0
+    - opencv-python==4.10.0.84
+    - pillow==11.1.0
+    - pillow_heif==0.21.0
+    - torch==2.5.1
+    - torchvision==0.20.1
+    - ultralytics==8.3.61
+    - pandas==2.2.3
+
+
+    - jupyter==1.1.1
+    - supervision==0.25.1
+    - jupyter_bbox_widget==0.6.0
+    - tqdm==4.67.1
+
